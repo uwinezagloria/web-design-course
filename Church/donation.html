@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church Donation</title>
+</head>
+<body>
+
+    <h2>Support Our Church</h2>
+    <form action="YOUR_PAYMENT_GATEWAY_URL" method="POST">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="amount">Donation Amount (RWF):</label><br>
+        <input type="number" id="amount" name="amount" placeholder="Enter amount" required min="1"><br><br>
+
+        <button type="submit">Donate Now</button>
+    </form>
+
+    <p>Thank you for your generous support!</p>
+
+</body>
+</html>
