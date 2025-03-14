@@ -4,14 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saint Etienne Kiyovu</title>
+    <style>
+        a{
+            text-decoration: none;
+            color:black;
+            font-size: 18px;
+            font-weight: bolder;
+            font-family: 'arial';
+        }
+        a:hover{
+            color:brown;
+        }
+        .subscribe{
+            background-color: brown;
+            width: 100%;
+            margin-top: -10px;
+        }
+        .subscribe-content{
+            color:white;
+            font-size: 28px;
+            display: inline-block;
+            margin-right: 12px;
+        }
+        .subscribe-button{
+            text-decoration: none;
+            color:brown;
+            background-color: white;
+            font-size: 18px;
+            display: inline-block;
+            padding:8px;
+            border-style: none;
+            
+        }
+        .subscribe-text{
+            padding:20px;
+        }
+        .email-placeholder{
+            padding:8px;
+            font-size: 18px;
+            background-color: rgba(221, 14, 14, 0.671);
+            color:white;
+            border-style: none;
+        }
+        .etienne{
+            color:black;
+            font-size: 18px;
+            font-weight: bolder;
+            font-family: 'arial';
+            margin-left:14px;
+            margin-top: -20px;
+        }
+    </style>
 </head>
 <body>
     <table width="100%" >
         <tr>
-             <td colspan="7">
-                <img src="images/saint etienne logo.jpg"  weight="200px" height="120px"></td>
-        </tr>
-        <tr>
+            
+        <td><img src="images/logo.jpg"  width="200px" height="120px">
+            <p class="etienne">Saint Etienne Kiyovu</p></td>
         <td><a href="home.html" target="main">Home</a></td>
         <td><a href="seremons.html" target="main">Seremons</a></td>
         <td><a href="aboutUs.html" target="main">About Us</a></td>
@@ -21,10 +71,18 @@
         <td><a href="donation.html" target="main"><button style="background-color: brown; color: white; border-style: none; padding:12px;">Send Donation</button></a></td>
     </tr>
     <tr>
-        <td colspan="7">
+        <td colspan="8">
             <iframe name="main" width="100%" height="600px" src="home.html"></iframe>
         </td>
     </tr>
-    </table>       
+    </table> 
+    <div class="subscribe">
+        <div class="subscribe-text">
+            <h1 class="subscribe-content">Subscribe And Tell Us Real Story About Your Journey</h1>
+            <input  class="email-placeholder" type="text" placeholder="Enter Your Email">
+            <button class="subscribe-button"><a href="https://www.youtube.com/watch?v=9nE7XRjiz70">Subscribe</a></button>
+        </div>
+        
+    </div>      
 </body>
 </html>

@@ -4,6 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <style>
+        .contact,.address{
+            width:140px;
+            height:50px;
+            background-color: gainsboro;
+            border-style: none;
+            margin-right: 5px;
+            font-size: 15px;
+        }
+        .message{
+            width:290px;
+            height:70px;
+            background-color: gainsboro;
+            border-style: none;
+            margin-top:12px;
+            font-size: 15px;
+
+        }
+        .message-button{
+            width:140px;
+            height:50px;
+        font-size: 15px;
+        background-color: brown;
+        color: white;
+        margin-top:10px;
+        border-style: none;
+        }
+    </style>
 </head>
 <body>
     <table width="100%">
@@ -14,15 +42,13 @@
                 <h3>Email:saintettiene@gmail.com</h3>
                 <h4>PHONE:+250788345676</h4>
             </td>
-        </tr>
-        <tr>
             <td>
-                <h4>Subscribe And Tell Us Real Story About Your Journey<input type="text" placeholder="Enter your Email"> <button><a href="https://www.youtube.com/watch?v=9nE7XRjiz70" target="_blank">Subcribe</a></button></h4>
-               
-                </td>
-            
-                
-        
+                <h1>Contact Form</h1>
+                <input class="contact" type="text" placeholder="Your Name">
+                <input  class="address" type="text" placeholder=" Email Address"><br>
+                <input class="message" type="text" placeholder="Your Message"><br>
+                <button class="message-button">Send Message</button>
+            </td>
         </tr>
     </table>
 </body>
