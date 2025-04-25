@@ -9,25 +9,48 @@
             text-align: center;
             
         }
+        .donate-button{
+            color:white;
+            background-color: brown;
+            border-style: none;
+            width:150px;
+            height:40px;
+            font-size: 18px;
+        }
+        .thanks{
+            font-size: 18px;
+             font-weight: bolder;
+        }
+        .labels{
+            font-size: 19px;
+        }
+        .inputs{
+            width:200px;
+            height:30px;
+            font-size: 18px;
+            background-color: gainsboro;
+            color:white;
+            border-style: none;
+        }
     </style>
 </head>
 <body>
 
     <h2>Support Our Church</h2>
     <form action="YOUR_PAYMENT_GATEWAY_URL" method="POST">
-        <label for="name">Your Name:</label><br>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        <label class="labels" for="name">Your Name:</label><br>
+        <input class="inputs" type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
 
-        <label for="email">Your Email:</label><br>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        <label class="labels" for="email">Your Email:</label><br>
+        <input class="inputs"  type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
 
-        <label for="amount">Donation Amount (RWF):</label><br>
-        <input type="number" id="amount" name="amount" placeholder="Enter amount" required min="1"><br><br>
+        <label class="labels" for="amount">Donation Amount (RWF):</label><br>
+        <input class="inputs"   type="number" id="amount" name="amount" placeholder="Enter amount" required min="1"><br><br>
 
-        <button type="submit" style="color:white;background-color: brown;border-style: none; ">Donate Now</button>
+        <button type="submit" class="donate-button" >Donate Now</button>
     </form>
 
-    <p style="font-size: 18px; font-weight: bolder;">Thank you for your generous support!</p>
+    <p class="thanks">Thank you for your generous support!</p>
 
 </body>
 </html>

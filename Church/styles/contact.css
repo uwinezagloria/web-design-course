@@ -1,0 +1,25 @@
+.contact,.address{
+    width:140px;
+    height:50px;
+    background-color: gainsboro;
+    border-style: none;
+    margin-right: 5px;
+    font-size: 15px;
+}
+.message{
+    width:290px;
+    height:70px;
+    background-color: gainsboro;
+    border-style: none;
+    margin-top:12px;
+    font-size: 15px;
+}
+.message-button{
+    width:140px;
+    height:50px;
+font-size: 15px;
+background-color: brown;
+color: white;
+margin-top:10px;
+border-style: none;
+}
